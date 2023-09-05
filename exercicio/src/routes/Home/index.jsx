@@ -4,8 +4,9 @@ export default function Home() {
     document.title = "Home";
   
     return (
-      <div>
-          <h1>COMPONENTE - HOME</h1>
-      </div>
+      <main>
+        <h1> HOME</h1>
+      </main>
+      
     )
   }
