@@ -9,10 +9,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './routers/Home.jsx';
-import Produtos from './routers/Produtos.jsx';
-import EditarProdutos from './routers/EditarProdutos.jsx';
-import Error from './routers/Error.jsx';
+import Home from './routes/Home/index.jsx'
+import Produtos from './routes/Produtos/index.jsx'
+import EditarProdutos from './routes/EditarProdutos/index.jsx'
+import Error from './routes/Error/index.jsx'
 
 const router = createBrowserRouter([
   {path: "/" , element: <App/>, errorElement: <Error/>,
